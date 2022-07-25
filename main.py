@@ -21,6 +21,4 @@ my_label.pack()
 
 
 
-
-
 window.mainloop()
