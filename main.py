@@ -8,7 +8,8 @@ window.minsize(width=500, height=300)
 # label
 my_label = Label(text="I am a label", font=("Arial", 24, "bold"))
 # my_label.pack()
-my_label.place(x=20, y=0)
+# my_label.place(x=20, y=0)
+my_label.grid(row=0, column=0)
 
 
 
@@ -22,12 +23,14 @@ def button_clicked():
 
 button = Button(text="Click me ", command=button_clicked)
 # button.pack()
-button.place(x=20, y=50)
+# button.place(x=20, y=50)
+button.grid(row=1, column=0)
 
 # define an input field with Entry
 input = Entry(width=10)
 # input.pack()
-input.place(x=20, y=100)
+# input.place(x=20, y=100)
+input.grid(row=2, column=0)
 
 
 
